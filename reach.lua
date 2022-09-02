@@ -1,9 +1,9 @@
-local active = true
+getgenv().active = true
 local trueActive = true
 local reachType = "Sphere"
 local dmgEnabled = true
-local visualizerEnabled = false
-getgenv().ReachSize = 15
+getgenv().visualizerEnabled = false
+getgenv().reachsize= 15
 local visualizer = Instance.new("Part")
 visualizer.BrickColor = BrickColor.Blue()
 visualizer.Transparency = 0.6
